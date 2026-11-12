@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">alidexter001 — Developer, Security Tooling, Open Source</title>
+  <desc id="desc">Dark cyber-inspired banner with a red grid, security telemetry panel, and developer-focused headline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090c"/>
+      <stop offset="0.58" stop-color="#111820"/>
+      <stop offset="1" stop-color="#090b0f"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7777"/>
+      <stop offset="0.5" stop-color="#ff3535"/>
+      <stop offset="1" stop-color="#9d111b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#aab4c0" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ff3535" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff3535" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1030" cy="160" rx="340" ry="270" fill="url(#glow)"/>
+  <path d="M0 290H1200" stroke="#ff4545" stroke-opacity=".32"/>
+  <path d="M0 296H1200" stroke="#ff4545" stroke-opacity=".08"/>
+  <g opacity=".5" stroke="#ff4545" fill="none">
+    <path d="M0 56H220L245 81H390" stroke-width="1.5"/>
+    <path d="M930 0V42L962 74H1200" stroke-width="1.5"/>
+    <circle cx="220" cy="56" r="3" fill="#ff4545"/>
+    <circle cx="962" cy="74" r="3" fill="#ff4545"/>
+  </g>
+  <g transform="translate(74 74)">
+    <rect x="0" y="0" width="48" height="4" rx="2" fill="url(#red)"/>
+    <text x="0" y="40" fill="#ff6666" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="4">DEVELOPER / SECURITY TOOLING / OPEN SOURCE</text>
+    <text x="-2" y="122" fill="#f4f6f8" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" letter-spacing="-2">CODE WITH</text>
+    <text x="-2" y="194" fill="url(#red)" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="-3">INTENT.</text>
+    <text x="0" y="238" fill="#aeb8c4" font-family="Arial, Helvetica, sans-serif" font-size="20">Engineering practical security into developer workflows.</text>
+  </g>
+  <g transform="translate(805 87)">
+    <rect x="0" y="0" width="318" height="190" rx="14" fill="#080b10" fill-opacity=".88" stroke="#ff4545" stroke-opacity=".55"/>
+    <path d="M0 39H318" stroke="#ff4545" stroke-opacity=".35"/>
+    <circle cx="22" cy="20" r="4" fill="#ff4545"/>
+    <circle cx="38" cy="20" r="4" fill="#d36b6b"/>
+    <circle cx="54" cy="20" r="4" fill="#59636f"/>
+    <text x="22" y="68" fill="#ff7777" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2">SECURITY PIPELINE</text>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="15">
+      <text x="22" y="101" fill="#e6edf3">01</text><text x="57" y="101" fill="#aeb8c4">INSPECT</text><circle cx="285" cy="96" r="4" fill="#ff4545"/>
+      <text x="22" y="131" fill="#e6edf3">02</text><text x="57" y="131" fill="#aeb8c4">ANALYZE</text><circle cx="285" cy="126" r="4" fill="#ff4545"/>
+      <text x="22" y="161" fill="#e6edf3">03</text><text x="57" y="161" fill="#aeb8c4">PRIORITIZE</text><circle cx="285" cy="156" r="4" fill="#ff4545"/>
+    </g>
+    <path d="M22 176H286" stroke="#ff4545" stroke-opacity=".25" stroke-dasharray="3 5"/>
+  </g>
+  <text x="74" y="333" fill="#707b87" font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="2">ALIDEXTER001  //  GITHUB.COM/ALIDEXTER001</text>
+  <text x="1123" y="333" text-anchor="end" fill="#707b87" font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="2">[ SYSTEM ONLINE ]</text>
+</svg>
