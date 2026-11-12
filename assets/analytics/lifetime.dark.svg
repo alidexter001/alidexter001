@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="190" viewBox="0 0 846 190" role="img" aria-labelledby="t d">
+  <title id="t">ACTIVITY HISTORY</title>
+  <desc id="d">Contribution activity by year. This is a temporary placeholder until the profile analytics workflow runs.</desc>
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#27313d" stroke-width="1" opacity=".45"/></pattern>
+    <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#ff4545"/><stop offset="1" stop-color="#ff8888"/></linearGradient>
+  </defs>
+  <rect width="846" height="190" rx="14" fill="#090d12"/>
+  <rect width="846" height="190" rx="14" fill="url(#g)"/>
+  <rect x="1" y="1" width="844" height="188" rx="13" fill="none" stroke="#27313d"/>
+  <rect x="0" y="0" width="846" height="4" rx="2" fill="url(#a)"/>
+  <text x="28" y="43" fill="#ff4545" font-family="Consolas, monospace" font-size="13" letter-spacing="2">// ACTIVITY HISTORY</text>
+  <text x="28" y="72" fill="#f2f5f8" font-family="Arial, sans-serif" font-size="15" font-weight="700">Contribution activity by year</text>
+  <rect x="28" y="94" width="790" height="66" rx="9" fill="#111821" stroke="#27313d"/>
+  <circle cx="52" cy="127" r="5" fill="#ff4545"/>
+  <text x="70" y="132" fill="#9aa7b5" font-family="Arial, sans-serif" font-size="14">Your lifetime contribution graph will appear here.</text>
+  <text x="817" y="178" text-anchor="end" fill="#9aa7b5" font-family="Consolas, monospace" font-size="9" letter-spacing="1">WAITING FOR WORKFLOW // PROFILE ANALYTICS</text>
+</svg>

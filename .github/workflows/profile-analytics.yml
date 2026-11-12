@@ -1,0 +1,28 @@
+name: Update profile analytics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate profile cards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Generate self-hosted analytics SVGs
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: alidexter001
+          cards: overview,contributions,lifetime,languages
+          output-dir: assets/analytics
+          themes: dark,light
+          commit: true
+          commit-message: "chore: refresh profile analytics"

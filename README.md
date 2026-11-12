@@ -73,20 +73,39 @@ These are technologies and domains reflected in my development work and current 
 
 ## `telemetry` — GitHub analytics
 
+These cards are generated as SVG files inside this repository by GitHub Actions. They do not rely on public third-party image endpoints, so the README won't show broken images when a shared stats service is paused or rate-limited.
+
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alidexter001&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=FF4545&icon_color=FF4545&text_color=C9D1D9" alt="GitHub profile statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alidexter001&layout=compact&langs_count=7&hide_border=true&bg_color=0D1117&title_color=FF4545&text_color=C9D1D9" alt="Most used programming languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/overview.dark.svg" />
+    <img src="./assets/analytics/overview.light.svg" alt="GitHub profile overview: contributions, stars, followers, pull requests, issues and repositories" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
-  <img width="72%" src="https://streak-stats.demolab.com?user=alidexter001&hide_border=true&background=0D1117&ring=FF4545&fire=FF4545&currStreakLabel=FF4545&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/languages.dark.svg" />
+    <img src="./assets/analytics/languages.light.svg" alt="Programming language distribution across public repositories" width="100%" />
+  </picture>
 </p>
 
-## `activity.log` — Contribution graph
+## `activity.log` — Contribution history
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alidexter001&bg_color=0D1117&color=C9D1D9&line=FF4545&point=FF7B72&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/contributions.dark.svg" />
+    <img src="./assets/analytics/contributions.light.svg" alt="Current and longest contribution streaks with a contribution calendar for the last twelve months" width="100%" />
+  </picture>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/lifetime.dark.svg" />
+    <img src="./assets/analytics/lifetime.light.svg" alt="GitHub contribution history by year" width="100%" />
+  </picture>
+</p>
+
+> Analytics are refreshed automatically once a day. To refresh them immediately after publishing, open the repository's **Actions** tab and run **Update profile analytics**. Contribution data follows the visibility settings on your GitHub profile.
 
 ## `connect` — Find me
 

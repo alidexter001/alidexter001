@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="190" viewBox="0 0 846 190" role="img" aria-labelledby="t d">
+  <title id="t">PROFILE OVERVIEW</title>
+  <desc id="d">Repository stats · contributions · stars · followers. This is a temporary placeholder until the profile analytics workflow runs.</desc>
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8dee6" stroke-width="1" opacity=".45"/></pattern>
+    <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#d1242f"/><stop offset="1" stop-color="#ff8888"/></linearGradient>
+  </defs>
+  <rect width="846" height="190" rx="14" fill="#f6f8fa"/>
+  <rect width="846" height="190" rx="14" fill="url(#g)"/>
+  <rect x="1" y="1" width="844" height="188" rx="13" fill="none" stroke="#d8dee6"/>
+  <rect x="0" y="0" width="846" height="4" rx="2" fill="url(#a)"/>
+  <text x="28" y="43" fill="#d1242f" font-family="Consolas, monospace" font-size="13" letter-spacing="2">// PROFILE OVERVIEW</text>
+  <text x="28" y="72" fill="#17202b" font-family="Arial, sans-serif" font-size="15" font-weight="700">Repository stats · contributions · stars · followers</text>
+  <rect x="28" y="94" width="790" height="66" rx="9" fill="#ffffff" stroke="#d8dee6"/>
+  <circle cx="52" cy="127" r="5" fill="#d1242f"/>
+  <text x="70" y="132" fill="#596675" font-family="Arial, sans-serif" font-size="14">Your live profile metrics will appear here.</text>
+  <text x="817" y="178" text-anchor="end" fill="#596675" font-family="Consolas, monospace" font-size="9" letter-spacing="1">WAITING FOR WORKFLOW // PROFILE ANALYTICS</text>
+</svg>
